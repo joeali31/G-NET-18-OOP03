@@ -11,6 +11,31 @@
             // d => Aggregation
             // e => Dependency
             #endregion
+
+
+            #region Question02
+            /* A
+             * Can a child class in a different assembly access it? Yes, if it inherits from the parent class.
+             * Can it be accessed through an object instance from outside? no
+             * Are accessible only inside the class and its subclasses
+             * Not accessible through an object reference from outside
+             */
+
+            /* B
+             * private protected — Accessible in the containing class OR derived classes in the same assembly only
+             * protected internal — Accessible anywhere in the same assembly (like internal) OR in derived classes in other assemblies (like protected)
+             */
+
+            /* C
+             * What does sealed do? Prevents inheritance
+             */
+
+            /* D
+             *  Can you create an object from a sealed class using new? Why or why not? Yes, you can.
+             * sealed only prevents inheritance
+             * It does not prevent instantiation
+             */
+            #endregion
         }
     }
 }
