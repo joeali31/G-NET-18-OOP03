@@ -1,4 +1,7 @@
-﻿namespace OOP03
+﻿using OOP03.Class;
+using System.Net.Sockets;
+
+namespace OOP03
 {
     internal class Program
     {
@@ -35,6 +38,30 @@
              * sealed only prevents inheritance
              * It does not prevent instantiation
              */
+            #endregion
+
+            #region Part 02 : Practical (Extending the Movie Ticket Booking System)
+            //Cinema cinema = new Cinema("Galaxy Cinema");
+            //Console.WriteLine();
+
+            //cinema.OpenCinema();
+
+            //Ticket t1 = new StandardTicket("A1", "inception", 300);
+            //Ticket t2 = new VIPTicket(true, "dark", 200);
+            //Ticket t3 = new IMAXTicket(true, "it", 150);
+
+            //Console.WriteLine();
+            //Console.WriteLine(t1);
+            //Console.WriteLine();
+            //Console.WriteLine(t2);
+            //Console.WriteLine();
+            //Console.WriteLine(t3);
+
+            //cinema.AddTicket(t1);
+            //cinema.AddTicket(t2);
+            //cinema.AddTicket(t3);
+
+            //cinema.CloseCinema();
             #endregion
         }
     }
